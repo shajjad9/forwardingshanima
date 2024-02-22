@@ -1,0 +1,886 @@
+
+/* Default styles for all screen sizes */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for larger screens (desktops and laptops) */
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+/* Styles for medium-sized screens (tablets) */
+@media only screen and (max-width: 991px) {
+    .container {
+        padding: 30px;
+    }
+}
+
+/* Styles for smaller screens (phones) */
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+}
+/*-------------------------------------------------------------------END RESPONSIVE----------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------------------------------MaKE PAGE PRINTABLE------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 210mm; /* A4 width */
+    min-height: 297mm; /* A4 height */
+    margin: 0 auto;
+    padding: 20mm;
+    background-color: #fff;
+    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    page-break-after: always; /* Force page break after each page */
+}
+
+.content {
+    /* Your content styles */
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .page {
+        width: 210mm; /* A4 width */
+        min-height: 297mm; /* A4 height */
+        margin: 0;
+        padding: 0;
+        page-break-after: always;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
+
+/*---------------------------------------END-MAKE PAGE PRINTABLE---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------Bill Of Exchange-----------------------------------------------------------------------*/
+
+.bill-of-exchange{
+	width:793.92px;
+	height:1050px;
+	background-color:ffffff;
+	margin:0 auto;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+}
+
+
+.exchange-heade{
+	   width:375px;
+	   height:50px;
+	   font-size:30px;
+	   text-decoration:underline;
+	   margin:0 auto;
+
+
+}
+
+.exchange-head-date{
+		width:80px;
+		height:30px;
+		margin-left:650px;
+
+
+}
+
+
+
+
+
+
+
+.drawn-under{
+	width:648px;
+	height:70px;
+	margin-left:50px;
+
+
+
+}
+
+
+
+.Lc-other{
+	width:648px;
+	height:70px;
+	margin-left:50px;
+
+}
+
+
+
+
+
+.lc-no{
+	text-align:left;
+	padding-left:-20px;
+
+
+}
+
+
+
+
+
+
+.main-content{
+
+		width:648px;
+		height:290px;
+		margin-left:50px;
+		line-height: 1.5;
+		
+
+
+}
+
+
+
+
+
+
+.footer-data{
+	width:648px;
+	height:170px;
+	margin-left:50px;
+	margin-top:10px;
+	
+
+
+
+
+
+}
+
+
+
+.foot-to-bank{
+	margin:10px;
+	height:130px;
+	width:300px;
+	
+	float:left;
+	
+
+
+}
+
+
+
+
+
+.foot-authorization{
+	margin:10px;
+	height:130px;
+	width:300px;
+	
+	float:right;
+
+
+}
+
+
+.full-page{
+	margin-top:30px;
+
+
+}
+
+/*----END--------------------------BILL OF EXCHANGE-----------------------------------------------------------------------*/
+
+
+
+/*------------------------------Delevery Challan-----------------------------------------------------------------------*/
+
+
+
+.Delivery-Challan{
+	width:793.92px;
+	height:1050px;
+	background-color:ffffff;
+	margin:0 auto;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;	
+	
+	
+	
+}
+
+.letterhead-name{
+	width: 360px;
+  height: 25px;
+  margin-left: 220px;
+	
+	
+	
+}
+
+
+
+.letterhead-address{
+		width: 375px;
+		height: 50px;
+		font-size: 15px;
+		margin-left: 200px;
+		text-align:center;
+		
+	
+	
+	
+	
+}
+
+.challananddate-maindiv{
+					width:700px;
+					height:20px;
+					background-color:ffffff;
+					box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+					margin-left:35px;
+	
+	
+	
+}
+
+.challanno{
+	width:300px;
+	height:20px;
+	float:left;
+	
+	
+	
+}
+
+.Challan-date{
+	float:right;
+	width:300px;
+	height:20px;
+	text-align:right;
+	
+	
+	
+	
+	
+}
+
+
+.delivery-challan-title{
+	 font-weight: bold;
+	font-size: 30px;
+  text-decoration: underline;
+  text-align:center;
+  width: 330px;
+  height: 41px;
+  margin-left: 240px;
+  background-color: ffffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px
+	
+	
+	
+	
+}
+
+
+.letterbasic-data{
+	
+					width:700px;
+					height:170px;
+					background-color:ffffff;
+					box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+					margin-left:35px;
+	
+	
+	
+}
+
+
+
+.send-to{
+	width:200px;
+	height:170px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:left;
+	
+	
+	
+}
+
+
+.notify-party{
+	width:200px;
+	height:170px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:left;
+	margin-left:50px;
+	
+	
+	
+	
+	
+}
+
+.other-basic{
+	width:200px;
+	height:170px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:right;
+	
+	
+	
+	
+}
+
+
+.product-particulars-table{
+	width:700px;
+	height:auto;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-left:35px;
+	
+	
+	
+	
+	
+}
+.last-closer{
+	width:700px;
+	height:auto;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-left:35px;
+	
+	
+	
+	
+}
+
+.receiver-declaration-main{
+	
+	width:700px;
+	height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-left:35px;
+	
+	
+}
+
+
+.received-goods{
+	float:left;
+	width:250px;
+	height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+}
+
+.delivered-by{
+	float:left;
+	width:100px;
+	height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-left:60px;
+	
+	
+}
+
+.store-officer{
+	float:right;
+	width:100px;
+	height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-right:60px;
+	
+	
+	
+}
+
+
+.sign-auth{
+	
+	width:700px;
+	height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	margin-left:35px;
+	
+	
+	
+	
+}
+
+.Signature-of-receiver-for-delivery-challan{
+	float:left;
+	height:20px;
+	width:300px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+}
+
+.Authorized-signature-for-delivery-challan{
+	float:right;
+	height:20px;
+	width:300px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+}
+
+
+
+/*----END--------------------------Delivery-Challan-----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*---------------TRUCK CHALLAN--------------------------------------------------------------------------------------------------------------*/
+
+.truckchallan-heading{
+	margin-left: 220px;
+	width: 350px;
+	height: auto;
+	text-align: center;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+}
+
+
+
+
+.truckchallan-truckno{
+	width:700px;
+	height:20px;
+	margin-left:35px;
+	margin-top:30px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+.truckno-dhk-metro{
+	float:left;
+	height;20px;
+	
+	
+	
+	
+}
+
+
+.truckno-drivername{
+	margin-left:140px;
+	float:left;
+	height;20px;
+	
+	
+	
+	
+	
+	
+}
+
+
+.truckchallan-date{
+	
+	float:right;
+	height;20px;
+	
+	
+	
+	
+	
+}
+
+
+
+
+.beneficiary-notify-lcno{
+	width:700px;
+	height:auto;
+	margin-left:35px;
+	margin-top:25px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+	
+}
+
+
+
+.truck-challan-beneficiary{
+	width:200px;
+	float:left;
+	height:auto;
+	line-height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+}
+
+
+
+.truck-challan-notifyparty{
+	width:200px;
+	margin-left:48px;
+	float:left;
+	height:auto;
+	line-height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+}
+
+
+
+.truck-challan-lcno{
+	width:200px;
+	float:right;
+	height:auto;
+	line-height:20px;
+	background-color:ffffff;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+}
+
+
+.truck-challan-middle-content-description{
+			width:700px;
+			height:auto;
+			margin-left:35px;
+			margin-top:200px;
+			background-color:ffffff;
+			box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+}
+
+
+
+
+
+.truck-challan-product-details{
+			width:700px;
+			height:auto;
+			margin-left:35px;
+			margin-top:3px;
+			background-color:ffffff;
+			box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+}
+
+
+
+.truck-challan-footer-remarks{
+			width:700px;
+			height:auto;
+			margin-left:35px;
+			margin-top:5px;
+			background-color:ffffff;
+			box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+}
+
+
+.truck-challan-footer-Freight-delivery-Nishiporibahan{
+			width:700px;
+			height:auto;
+			margin-left:35px;
+			margin-top:10px;
+			background-color:ffffff;
+			box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+}
+
+
+.footer-freight{
+	
+	width:200px;
+	height:auto;
+	background-color:ffffff;
+	box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:left;
+	
+	
+	
+	
+	
+}
+
+
+.footer-delivery{
+	width:200px;
+	height:auto;
+	margin-left:35px;
+	background-color:ffffff;
+	box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:left;
+	text-align:center;
+	
+	
+}
+
+.footer-for{
+	width:200px;
+	height:auto;
+	margin-left:35px;
+	background-color:ffffff;
+	box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	float:right;
+	text-align:center;
+	
+	
+	
+}
+
+
+
+
+
+
+
+/*-----------END--------------------------------TRUCK CHALLAN--------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*---------------PACKING LIST------------------------------------------------------------------------------------------------------------------------------------*/
+	
+#incrementable-table{
+	width:700px;
+	
+	
+	
+	
+}	
+	
+	
+#incrementable-table th{
+	width:700px;
+	
+	
+}	
+
+
+
+/*------------------------------------------TABLE---------------------*/
+.demo {
+		width:700px;
+		border:1px solid #000000;
+		border-collapse:collapse;
+		padding:3px;
+	}
+	.demo th {
+		border:1px solid #000000;
+		padding:3px;
+		background:#F0F0F0;
+		word-wrap:break-word;
+	}
+	.demo td {
+		border:1px solid #000000;
+		text-align:left;
+		padding:3px;
+		word-wrap:break-word;
+	}
+	
+  .small-th {
+    width: 50px; /* Set the width of small TH */
+}
+
+
+.medium-th {
+    width: 100px; /* Set the width of medium TH */
+}
+
+.large-th {
+    width: 200px; /* Set the width of large TH */
+}
+
+
+	
+	
+
+
+/*------END------------------------------------TABLE---------------------*/
+
+
+
+
+
+
+
+
+/*------------END------------PACKING LIST--------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------COMMERCIAL INVOICE---------------------------------------------------------------------------------------------------------------*/
+
+
+
+#comfullpage{
+	margin-top:30px;
+	
+	
+	
+	
+}
+
+
+
+#commain{
+	width:793.92px;
+	height:1050px;
+	background-color:ffffff;
+	margin:0 auto;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+
+.comm-header-main{
+	width:450px;
+	height:auto;
+	margin-left:200px;
+	text-align:center;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+}
+
+
+
+.comm-main-content{
+	width:700px;
+	margin-left:35px;
+	height:auto;
+	box-shadow: rgba(0, 0, 0, 0) 0px 1px 3px 0px, rgba(27, 31, 35, 0) 0px 0px 0px 1px;
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------END------------COMMERCIAL INVOICE--------------------------------------------------------------------------------------------------------------------------*/
